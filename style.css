@@ -1,0 +1,89 @@
+* {
+    /* border: 1px dotted red; */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    font-family: 'Raleway', arial;
+    font-size: 18px;
+    max-width: 600px;
+    margin-bottom: 100px;
+}
+
+#result-box {
+    padding: 12px;
+    height: 20px;
+    margin-bottom: 10px;
+    display: none;
+    text-align: center;
+    color: #fff;
+}
+
+header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 25px;
+}
+
+header .material-icons {
+    font-size: 35px;
+    color: #458cce;
+}
+
+i.delete:hover {
+    color: rgb(255, 0, 0);
+}
+
+form input {
+    width: 100%;
+    display: block;
+    padding: 8px;
+    box-sizing: border-box;
+    font-family: 'Raleway', arial;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 16px;
+    border-radius: 3px;
+    border: 2px solid #ccc;
+    outline: none;
+}
+
+#submit {
+    border: none;
+    background-color: #3da340;
+    color: #fff;
+    padding: 12px;
+    cursor: pointer;
+    width: 100px;
+}
+
+#submit:hover {
+    background-color: #3a9b3e;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    border: none;
+}
+
+th, td {
+    /* background-color: red; */
+    border-bottom: 1px solid rgb(128, 128, 128);
+}
+
+tbody tr:nth-child(odd) {
+    background: #ccc;
+}
+
+.delete-item span {
+    cursor: pointer;
+}
